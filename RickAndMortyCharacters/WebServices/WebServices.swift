@@ -61,28 +61,4 @@ class WebServices {
             }
         }.resume()
     }
-    
-    //    func fetchCharacters(url: URL, completion: @escaping ([CharactersModel]?) -> Void) {
-    //            
-    //        URLSession.shared.dataTask(with: url) { data, response, error in
-    //            
-    //            if error != nil {
-    //                print(error)
-    //            } else {
-    //                do {
-    //                    let result = try JSONDecoder().decode([CharactersModel].self, from: data!)
-    //                    completion(result)
-    //                } catch {
-    //                    print(error)
-    //                }
-    //            }
-    //                
-    //            } .resume() // URLSession'un bitimine
-    //            
-    //        
-    //    }
-    
-    
-    
-    
 }
